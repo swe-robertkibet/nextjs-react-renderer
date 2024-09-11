@@ -17,7 +17,7 @@ const ReactAppIframe = () => {
     return (
         <iframe
             ref={iframeRef}
-            src="/react-app/index.html"
+            src="/react-app/static/index.html"
             style={{ width: '100%', border: 'none' }}
             title="React App"
         />
